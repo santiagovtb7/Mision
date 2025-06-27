@@ -1,0 +1,7 @@
+.nav li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: rgb(219, 214, 214);
+    font-weight: bold;
+ }

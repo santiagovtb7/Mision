@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#layout {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: 3px solid black;
+padding: 5px;
+background: rgb(75, 119, 136);
+}
+
+.caja {
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: white;
+padding: 20px;
+border: 4px solid #222;
+margin: 20px;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+
+.blue {
+    background: blue;
+}
