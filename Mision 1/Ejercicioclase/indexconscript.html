@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="icj.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de registro</h2>
+       <form id="contactoForm" onsubmit="return validarContacto() ">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electronico:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="asunto">Contraseña:</label>
+        <input type="password" id=" Contraseña" name=" Contraseña" required>
+        <label for="asunto">Confirmar Contraseña:</label>
+        <input type="password" id="Confirmar Contraseña" name="Confirmar Contraseña" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea type="text" id="mensaje" name="mensaje"  rows="5" required> </textarea>
+
+        <button for="submit">Enviar mensaje:</button>
+       </form>
+       <p id="mensajeError" class="error"></p>
+    </div>
+
+    <script src="icj.js"></script>
+</body>
+</html>

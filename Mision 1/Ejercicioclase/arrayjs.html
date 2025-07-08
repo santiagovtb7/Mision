@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    Crear un vector para almacenar los cinco sueldos de operarios y los cinco sueldos y luego mostrarel total de gastos en sueldos (cada actividad en una funcion)
+    
+    -->
+    
+<script>
+
+function cargar(sueldos){                                                                                             
+   for(let f =  0 ; sueldos.length; f++){
+    let v = prompt('Ingrese el sueldo: ')
+    sueldos[f]= parseInt(v)
+   } 
+}
+
+function calcularGasto(sueldo){
+ let total = 0
+ for(let f = 0; f < sueldos.length; f++){
+total = total + sueldos[f]
+document.write (sueldos[f] + '<br>')
+}
+document.write('<br>')
+document.write('total de gastos en sueldo,' + total)
+
+}
+
+let sueldos 
+sueldos = new Array(5);
+cargar(sueldos)
+calcularGasto(sueldos)
+</script>
+
+</body>
+</html>

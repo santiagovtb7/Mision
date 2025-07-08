@@ -1,0 +1,43 @@
+ *{
+   margin: 0%;
+   padding : 0%;
+}
+
+body{
+padding: 40px;
+}
+.cajas{
+display: inline;
+width: 250px;
+height: 250px;
+background-color: aqua;
+border: 5px solid red;
+border-radius: 25px;
+margin: 15px 25px 30px 45px;
+margin-top: 15;
+margin-bottom: 24px;
+margin-left: 18;
+margin-right: 10px;
+padding: 25px;
+float: left;
+box-shadow: 10px 15px 10px chocolate;
+}
+
+.cajas{
+ text-align: center;
+ font-weight: bold;
+ font-family:  Georgia, Times, 'Times New Roman', serif;
+font-size: 22px;
+line-height: 225px;
+text-shadow: 5px 5px 5px grey;
+}
+
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+header{
+font-family: 'Times New Roman', Times, serif;
+
+}

@@ -1,0 +1,44 @@
+*{
+   margin: 0%;
+   padding : 0%;
+   box-sizing: border-box;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: aliceblue;
+}
+.contenedor{
+width: 100px;
+margin: 20px;
+background-color: blanchedalmond;
+}
+
+header{
+background-color: beige;
+color: black;
+text-align: center;
+padding: 20px;
+font-size: 24px;
+}
+
+.caja{
+display: flex;
+list-style: none;
+justify-content: space-around;
+background-color: antiquewhite;
+padding: 10px 0;
+}
+
+.menu li{
+    color: antiquewhite;
+}
+.contenido_principal{
+display: flex;
+width: 1500px;
+height: 1500px;
+padding: 20px;
+}
+.contenido{
+
+}
